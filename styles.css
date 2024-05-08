@@ -1,4 +1,64 @@
 
-.profilePicture{
-    width: 150px;
+.webpageBody{
+    padding: 1em 5em 1em 5em;
+    background-image: url(images/Table-Mountain_GettyImages.webp);
+    background-position: center;
+}
+
+
+@media(min-width:960px){
+    .navBlock{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: white;
+        background-color: gray;
+        padding: 0em 3em 0em 3em;
+    }
+    .headerText{
+        text-align: center;
+    }
+    .profilePicture{
+        width: 500px;
+        border: 1px solid black;
+        border-radius: 55px;
+        display: inline-block;
+        margin-right: 70px;
+    }
+
+    #name, #Profession, #citizenShip, #description{
+        margin-bottom: 0px;
+        color: white;
+        line-height: 25px;
+        width: 500px;
+    }
+   
+    .flexContainer{
+        display: flex;
+    }
+    .addressContainer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .iconFlex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .addressIcon, .callIcon, .messageIcon{
+        display: inline-block;
+        width: 100px;
+        padding-left: 0;
+        border-radius: 50px;
+    }
+
+    .residentialAdd, .personalContact, .personalMessage{
+        display: inline-block;
+        text-align: top;
+        color: white;
+    }
+
+
 }
