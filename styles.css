@@ -5,6 +5,9 @@
     background-position: center;
 }
 
+body{
+    background-image: url(images/swahiliPic.jpg);
+}
 
 @media(min-width:960px){
     .navBlock{
@@ -15,7 +18,7 @@
         background-color: gray;
         padding: 0em 3em 0em 3em;
     }
-    .headerText{
+    .headerText, .cityHeading, .langText{
         text-align: center;
     }
     .profilePicture{
@@ -59,6 +62,39 @@
         text-align: top;
         color: white;
     }
+    .cityHeading{
+        font-style: italic;
+    }
 
+    .istanbulImg{
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    }
 
+    .aboutIstanbul{
+        background-color: yellowgreen;
+        line-height: 25px;
+        font-size: 16px;
+        width: 80%;
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #D6EEEE;
+    }
+
+    .centerTable{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: 200px;
+    }
 }
