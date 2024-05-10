@@ -11,6 +11,9 @@
     background-attachment: fixed;
     background-size: cover;
 }
+#subjectsBody, #historicBody{
+    background-color: burlywood;
+}
 td{
     text-align: center;
 }
@@ -104,9 +107,7 @@ td{
         border-radius: 7px;
         border: 1px solid gray;
     }
-    #subjectsBody, #historicBody{
-        background-color: burlywood;
-    }
+    
     #subjectFlex{
         display: flex;
         margin-bottom: 50px;
