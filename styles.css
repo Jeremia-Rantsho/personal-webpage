@@ -5,8 +5,14 @@
     background-position: center;
 }
 
-body{
+.langBody{
     background-image: url(images/swahiliPic.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+td{
+    text-align: center;
 }
 
 @media(min-width:960px){
@@ -18,7 +24,7 @@ body{
         background-color: gray;
         padding: 0em 3em 0em 3em;
     }
-    .headerText, .cityHeading, .langText{
+    .headerText, .cityHeading, .langText, h1{
         text-align: center;
     }
     .profilePicture{
@@ -87,14 +93,38 @@ body{
         border-radius: 10px;
     }
 
-    tr:nth-child(even) {
-        background-color: #D6EEEE;
-    }
-
     .centerTable{
         margin-left: auto;
         margin-right: auto;
         margin-top: 5%;
         margin-bottom: 200px;
+        background-color: yellowgreen;
+        color: white;
+        font-size: 18px;
+        border-radius: 7px;
+        border: 1px solid gray;
     }
+    #subjectsBody, #historicBody{
+        background-color: burlywood;
+    }
+    #subjectFlex{
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+    #subjectInfo{
+        width: 75%;
+       /* margin-left: 10%;
+        margin-right: 40%;*/
+    }
+    .subjectImg{
+        width: 100%; 
+    }
+    .subjectImg01{
+        width: 75%;
+    }
+    .subjectImg02{
+        width: 95%;
+    }
+
 }
